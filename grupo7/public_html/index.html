@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>plantitas</title>
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta name="theme-color" content="rgb(62, 46, 40)">
+    <link async="" href="estilos.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <table>
+        <tr>
+            <td>Codigo Sensor:</td>
+            <td><input id="i1" type="text" placeholder="codigo" /></td>
+        </tr>
+        <tr>
+            <td>Lectura:</td>
+            <td><input id="i2"  type="text" placeholder="lectura" /></td>
+        </tr>
+        <tr>
+            <td>Fecha:</td>
+            <td><input  id="i3" type="date" placeholder="fecha" /></td>
+        </tr>
+        <tr>
+            <td>Fecha 2:</td>
+            <td><input  id="i4" type="date" placeholder="fecha 2" /></td>
+        </tr>
+        <tr>
+            <td>Es Riego?:</td>
+            <td><input id="i5"  type="text" placeholder="T or F" /></td>
+        </tr>
+        <tr>
+            <td class="frm_btn"><input onclick="sendFormContact()" type="button" id="btnEnviar" value="Enviar" /></td>
+        </tr>
+    </table>
+    <script async src="general.js" type="text/javascript"></script>
+</body>
+</html>
